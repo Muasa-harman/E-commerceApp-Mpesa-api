@@ -42,4 +42,4 @@ router.post("/login",async(req,res,next)=>{
     next()
 })
 
-export default router;
+module.exports = router
